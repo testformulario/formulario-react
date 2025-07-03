@@ -5,7 +5,6 @@ import { FormB } from './components/FormB';
 import { AdminPage } from './components/AdminPage';
 import { LoginPage } from './components/LoginPage';
 import { Instructions } from './components/common/Instructions';
-import { GeminiIcon } from './components/icons/GeminiIcon';
 import { ArchiveBoxIcon } from './components/icons/ArchiveBoxIcon';
 
 type FormVersion = 'A' | 'B';
@@ -123,10 +122,6 @@ const App: React.FC = () => {
         
         <footer className="text-center mt-12 text-slate-500 text-sm">
             <p>Diseñado para una evaluación comparativa de la experiencia de usuario.</p>
-             <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 mt-2 hover:text-indigo-600 transition-colors">
-                <GeminiIcon className="w-5 h-5" />
-                <span>Powered by Gemini</span>
-            </a>
         </footer>
       </div>
     </div>
